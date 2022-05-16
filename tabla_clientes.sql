@@ -21,3 +21,5 @@ SELECT 'Creacion de indices';
 
 CREATE UNIQUE INDEX nombre_email ON clientes(nombre,email);
 CREATE UNIQUE INDEX email ON clientes(email);
+
+SELECT 'Lista de indices';
